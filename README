@@ -1,9 +1,9 @@
 stupid simple vagrant module
 
-only works on Ubuntu precise
+only works on Ubuntu Precise
 
 does cool stuff:
-- setsup apt source
+- sets up apt source
 - installs virtualbox
 - install rubygems
 - gem installs vagrant
@@ -13,6 +13,6 @@ Usage
 
 puppet apply -e 'include vagrant'
 
-or even more super awsome!
+or even more super awsomely, you can install the whole thing with one command!
 
-  > bash -c "$(curl -fsS https://raw.github.com/puppetlabs/puppet-vagrant/master/install.sh)"
+  > bash -c "$(curl -fsS https://raw.github.com/bodepd/puppet-vagrant/master/install.sh)"
