@@ -12,3 +12,7 @@ word
 Usage
 
 puppet apply -e 'include vagrant'
+
+or even more super awsome!
+
+  > bash -c "$(curl -fsS https://raw.github.com/puppetlabs/puppet-vagrant/master/install.sh)"
