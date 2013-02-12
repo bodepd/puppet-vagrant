@@ -1,0 +1,14 @@
+stupid simple vagrant module
+
+only works on Ubuntu precise
+
+does cool stuff:
+- setsup apt source
+- installs virtualbox
+- install rubygems
+- gem installs vagrant
+word
+
+Usage
+
+puppet apply -e 'include vagrant'
