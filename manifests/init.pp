@@ -24,6 +24,12 @@ class vagrant {
     ensure => present,
   }
 
+  # assumes that rake is always required for vagrant testing environments
+  # (it always is for me)
+  package { 'rake':
+    ensure => present,
+  }
+
   package { 'vagrant':
     provider => gem,
     ensure   => present,
